@@ -1,0 +1,12 @@
+# 本服务为A
+trafficFlow:
+  routers:
+    target: B
+      rule:
+        gray: 10
+        prod: 80
+        gray2: 10
+    target2: C
+      rule:
+        gray: 10
+        prod: 90
